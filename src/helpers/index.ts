@@ -1,6 +1,6 @@
-import { MatcheSchema, MatchesSchema } from "../schemas";
+import { MatchesSchema } from "../schemas";
 import type { Lenguage, Config, Matche } from "../types";
-import { function_, safeParse } from "valibot";
+import { safeParse } from "valibot";
 export const lenguages: Lenguage[] = [
   {
     name: "spanish",
